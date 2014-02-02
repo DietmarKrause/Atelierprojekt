@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atelier</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <style>
+    	img, object {  max-width: 100% }
+
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header class="main-header">
+			<a class="logo" href="#">Atelier Radach Krause</a>
+			<!-- <nav class="main-nav">
+				<a link href="index.html">Main</a>
+				<a link href="Lilo.html">Lieselotte Radach</a>
+				<a link href="Dietmar.html">Dietmar Krause</a>
+				<a link href="map.html">So finden Sie uns</a>
+				<a link href="Bilder.html">Galerie</a>
+			</nav> -->
+			<div class="menu">
+				<ul class:"main-menu">
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="Lilo.html" id="current">Lieselotte Radach</a>
+					<li><a href="Dietmar.html" id="current">Dietmar Krause</a>
+					<li><a href="Bilder.html" id="current">Galerie</a>
+						<ul>
+							<li><a href="#">Zeichnungen</a></li>
+							<li><a href="#">Radierungen</a></li>
+							<li><a href="#">Acrylarbeiten</a></li>
+							<li><a href="#">Photoarbeiten</a></li>
+						</ul>
+					</li>
+					<li><a href="map.html" id="current">So finden Sie uns</a>
+					<!-- <li><a href="/about.html">About</a>
+						<ul>
+							<li><a href="#">Company Info</a></li>
+							<li><a href="#">Locations</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</li>
+					<li><a href="/contact/contact.php">Contact Us</a></li> -->
+				</ul>
+			</div>
+		</header>
+		
+		<div class="content">
+			   <!-- <div id="foto" data-picture data-alt="Atelier-Foto">
+			        <div data-src="external/imgs/Pinsel_klein.jpg"></div>
+			        <div data-src="external/imgs/Pinsel_mittel.jpg"     data-media="(min-width: 400px)"></div>
+			        <div data-src="external/imgs/Pinsel_gross.jpg"      data-media="(min-width: 400px)"></div>
+			        <div data-src="external/imgs/Pinsel_extra.jpg" data-media="(min-width: 980px)"></div>
+			        <div data-src="external/imgs/Pinsel_max.jpg" data-media="(min-width: 1200px)"></div>
+
+			        
+			        <noscript>
+			            <img src="img/Pinsel_klein.jpg" alt="Atelier-Foto">
+			        </noscript>
+			        
+
+		       </div>	   -->
+			 <!-- <div class="main col">  
+				Main  
+   			 </div> 
+			<div class="secondary col">
+				secondary
+				
+			</div>
+			<div class="extra col">
+				extra
+				
+			</div> -->
+			<div>
+			<a link class="Lilolink" href="Lilo.html">Lilo</a>
+			<a link class="Dietmarlink" href="Dietmar.html">Dietmar</a>
+		    </div>
+		</div>
+		
+	</div>
+	<footer class="main-footer">
+			Footer
+	</footer>
+	<style>
+	.Lilolink,
+	.Dietmarlink {
+		    position: relative;
+			display: block;
+			overflow: hidden;
+			width: 400px;
+		    height: 200px;
+		    margin-left: 2%;
+		    margin-top: 2%;
+			text-indent: -99999px;
+	}
+	.Lilolink {
+		background: url('../Atelier/img/Lilo.jpg') no-repeat top left;
+		/*float: left;*/
+	}
+	.Dietmarlink {
+		background: url('../Atelier/img/Dietmar_klein.jpg') no-repeat center left;
+		float: left;
+	}
+	.Lilolink:hover {
+		/*background-position: 0 0;*/
+	}
+	html{  
+	    height: 100%;
+		/*background: url('../Atelier/img/Lilo.jpg') no-repeat 20% 50%, url('../Atelier/img/Dietmar_klein.jpg') no-repeat 80% 50%, url('../Atelier/external/imgs/Pinsel_max.jpg') no-repeat;
+		background-size: 20%, 20%, cover;*/
+		background: url('../Atelier/external/imgs/Pinsel_max.jpg') no-repeat center;
+		background-size: cover;
+	}
+	
+	{
+
+	}
+	
+	</style>
+	<script src="external/matchmedia.js"></script>
+	<script src="picturefill.js"></script>
+</body>
+</html>

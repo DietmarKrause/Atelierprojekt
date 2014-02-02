@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	
+</head>
+<body>
+<div class="wrap">
+		<header class="main-header">
+				<a class="logo" href="#">Atelier Radach Krause</a>
+				<nav class="main-nav">
+				<a link href="index.html">Main</a>
+				<a link href="Lilo.html">Lieselotte Radach</a>
+				<a link href="Dietmar.html">Dietmar Krause</a>
+				<a link href="map.html">So finden Sie uns</a>
+				<a link href="Bilder.html">Galerie</a>
+				</nav>
+		</header>
+		<div class="group" id="locations">
+		
+				<h2>Atelieradresse</h2>
+				<address>
+				Hochstraße 33, 42799 Leichlingen
+			    </address>
+			    <div><br>
+			    	Wenige Meter vom Bahnhof Leichlingen aus bequem zu Fuss  zu erreichen.<br><br>
+			    </div>
+				<div>
+					Tel: <span class="contact">0172-5274493</span><br>
+				    E-Mail: <a href="#">Dr.Dietmar.A.Krause@t-online.de</a><br>
+				</div>
+
+				<p class="static_map">
+				<img src="http://maps.googleapis.com/maps/api/staticmap?parameters?key=AIzaSyCWZQkhsn-B1PZXrQcANR9detyt5BLlWvw&size=300x400&sensor=false&markers=Hochstraße+33, 42799+Leichlingen" alt="Hochstraße 33, 42799 Leichlingen">
+				</p>
+			</div>
+			
+		</div>
+		<footer class="main-footer">
+			Footer
+		</footer>
+</div>
+			<script type="text/javascript" src="js/jquery.js"></script>
+	   		<script type="text/javascript">
+			$("#locations").prepend('<iframe id="map" src="map_iform.html" seamless="seamless" scrolling="no"></iframe>');
+			$(".static_map").remove();
+				
+			</script>
+</body>
+</html>

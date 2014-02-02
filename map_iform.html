@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map Iform</title>
+	<style type="text/css">
+    html, body, #map {
+    	width: 100%;
+    	height: 100%;
+    }
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+    <address>Hochstrasse 33 42799 Leichlingen
+	</address>
+	<!-- <address>
+	Bahnhof 42799 Leichlingen
+	</address> -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWZQkhsn-B1PZXrQcANR9detyt5BLlWvw&sensor=false">
+	</script>
+
+	<script type="text/javascript">
+					var map;
+					var bounds;
+					var geocoder;
+					var center;
+					function initialize() {
+						var mapOptions = {
+							zoom: 4,
+							center: new google.maps.LatLng(51.6, 7.02),
+							mapTypeId: google.maps.MapTypeId.ROADMAP
+						};
+						 map = new google.maps.Map(document.getElementById('map'), mapOptions);
+						 geocoder = new google.maps.Geocoder();
+						 bounds = new google.maps.LatLngBounds();
+					}
+					function addMarkerToMap(location, address){
+						var image = "img/Pinsel.png";
+						var marker = new google.maps.Marker({map: map, position: location, icon: image});
+						bounds.extend(location);
+						google.maps.event.addListener(map, 'zoom_changed', function() {
+							zoomChangeBoundsListener = 
+							google.maps.event.addListener(map, 'bounds_changed', function(event) {
+								if (this.getZoom() > 17 && this.initialZoom == true) {
+              					  // Change max/min zoom here
+           						     this.setZoom(16);
+              						 this.initialZoom = false;
+           							 }
+           					 google.maps.event.removeListener(zoomChangeBoundsListener);
+       						 });
+						});
+						map.initialZoom = true;
+						map.fitBounds(bounds);
+						var contentString = '<div id="content">'+
+						'<div id="siteNotice">'+
+						'</div>'+
+						'<h1 id="firstHeading" class="firstHeading">Atelier</h1>'+
+						'<div id="bodyContent">'+'<p>'+'<img class="BioFoto" src="img/Atelier-1.jpg" alt="Ateliereingang">'+'</p>'+
+						'<p>unser Atelier liegt auf einem <b>alten Fabrikgel&#228nde</b>, in der  ' +
+						'Hochstrasse 33 in Leichlingen '+
+						'gleich hinter einer normalerweise ge&#246ffneten Toreinfahrt. '+
+						'Auf dem Gel&#228nde finden Sie reichlich Parkfl&#228che. '+
+						'</p>'+
+						'<p>Wenige 100 Meter davon entfernt, gleich die Strasse hinunter, liegt der Bahnhof '+
+						'von Leichlingen.</p>'+
+						'</div>'+
+						'</div>';
+						var infoWindow = new google.maps.InfoWindow({ content: contentString});
+						google.maps.event.addListener(marker, "click", function(){
+							infoWindow.open(map, marker);
+						});
+
+					}
+					initialize();
+					/* $("address", parent.window.document).each(function(){ */
+					$("address").each(function(){
+						var $address = $(this);
+						geocoder.geocode({address: $address.text()}, function(results, status){
+								if (status == google.maps.GeocoderStatus.OK) addMarkerToMap(results[0].geometry.location, $address.html());
+						})
+					})
+					google.maps.event.addDomListener(map, "idle", function(){
+						center = map.getCenter();
+					});
+
+					$(window).resize(function(){
+						map.setCenter(center);
+					});
+
+		</script>
+</body>
+</html>
