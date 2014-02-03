@@ -1,0 +1,306 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Lilo.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "style_main.css",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "style.css",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/pricing.html",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/js/jquery.js",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/css/style.css",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/index.html",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/contact.html",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/locations.html",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/contact.php",
+		"/D/von X/Atelier/index.html",
+		"/D/von X/Atelier/css/style.css",
+		"/D/von X/Atelier/css/style_main.css",
+		"/D/von X/Atelier/Lilo.html",
+		"/D/von X/Atelier/css/style_main.cass",
+		"/D/Teamtreehouse/codekurs/index.html",
+		"/D/Teamtreehouse/codekurs/Projektdateien/index.html",
+		"/D/Teamtreehouse/Entwicklerkurs/index.html",
+		"/D/Teamtreehouse/Entwicklerkurs/erster Test",
+		"/D/Teamtreehouse/jQuery start/smellslikebakin/index.html",
+		"/D/Teamtreehouse/jQuery responsive website/smellslikebakin/css/grid.css",
+		"/D/Teamtreehouse/adaptive-layouts-with-media-queries/adaptive-layouts-with-media-queries/final/index.html",
+		"/D/Teamtreehouse/adaptive-layouts-with-media-queries/adaptive-layouts-with-media-queries/final/style.css",
+		"/D/Teamtreehouse/device-media-queries-pt-2/device-media-queries/final/index.html",
+		"/D/Teamtreehouse/SmellsLikeBakin-Stage3/WWIsland2-Stage3/index.html",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/index.html",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/objects.js",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/functions.js",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/arrays.js",
+		"/F/Eigene Dateien alte Rechner/Eigene Dateien/Entwicklerkurs/erster Test",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/numbers.js",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/myscript2.js",
+		"/D/Teamtreehouse/codekurs/Programmierkurs/strings.js"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Lilo.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style_main.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
