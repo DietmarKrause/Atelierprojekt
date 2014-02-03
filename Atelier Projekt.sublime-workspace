@@ -166,7 +166,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -181,8 +181,8 @@
 						"selection":
 						[
 							[
-								3059,
-								3059
+								958,
+								958
 							]
 						],
 						"settings":
@@ -191,7 +191,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2163.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -245,7 +245,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 4827.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -355,7 +355,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1447.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -382,7 +382,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
